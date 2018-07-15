@@ -1,0 +1,37 @@
+@import url("../articles/articles.css");
+@import url("../color/color.css");
+@import url("../comparing/comparing.css");
+@import url("../letter/letter.css");
+@import url("../letters/letters.css");
+@import url("../listening/listening.css");
+@import url("../problem/problem.css");
+@import url("../question/question.css");
+@import url("../shape/shape.css");
+
+.challenge {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    background: #FFF url("../../../../images/background.svg") 0 0 / 1024px auto no-repeat;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.8);
+    text-align: center;
+}
+
+.challenge > * {
+    margin-bottom: 15px;
+}
+
+.challenge-submit {
+    width: max-content;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.challenge-submit:hover {
+    position: relative;
+    transform: scale(1.1);
+}

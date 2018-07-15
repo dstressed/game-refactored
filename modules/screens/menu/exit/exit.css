@@ -1,0 +1,43 @@
+.exit-background {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.exit-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    padding: 15px;
+    background: #FFF url("../../../../images/background.svg") 0 0 / 1024px auto no-repeat;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.8); /* Grey 900 */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.exit-window > * {
+    margin-bottom: 10px;
+}
+
+.exit-window > *:last-child {
+    margin-bottom: 0;
+}
+
+.exit-buttons span {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.exit-buttons span:last-child {
+    margin-left: 25px;
+}
+
+.exit-buttons span:hover {
+    transform: scale(1.1);
+}

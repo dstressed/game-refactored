@@ -1,0 +1,48 @@
+.score-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.score-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 20px;
+    background: #FFF url("../../../images/background.svg") 0 0 / 1024px auto no-repeat;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.8); /* Grey 900 */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.score-window > * {
+    margin-bottom: 15px;
+}
+
+.score-window > *:last-child {
+    margin-bottom: 0;
+}
+
+.score-show, .score-begin {
+    cursor: pointer;
+}
+
+.score-show:hover, .score-begin:hover {
+    position: relative;
+    transform: scale(1.1);
+}
+
+.score-window span {
+    display: inline-block;
+    width: 50%;
+}
+
+.score-window span:nth-child(odd) {
+    color: #757575; /* Grey 600 */
+}

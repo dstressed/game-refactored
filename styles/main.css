@@ -1,0 +1,50 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("../modules/components/loader/loader.css");
+@import url("../modules/screens/game/game.css");
+@import url("../modules/screens/menu/menu/menu.css");
+@import url("../modules/screens/prologue/prologue/prologue.css");
+@import url("../modules/screens/room/room.css");
+@import url("../modules/components/health/health.css");
+@import url("../modules/components/character/character/character.css");
+@import url("../modules/components/inventory/inventory.css");
+@import url("../modules/components/cue/cue/cue.css");
+@import url("../modules/components/attacks/attacks.css");
+@import url("../modules/components/challenge/challenge/challenge.css");
+@import url("../modules/components/score/score.css");
+
+body {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 22px;
+    color: #424242; /* Grey 800 */
+}
+
+h1, input {
+    font-size: 26px;
+}
+
+input {
+    outline: none;
+    padding: 4px 8px;
+    border: 1px solid #757575; /* Grey 600 */
+    border-radius: 5px;
+    font-family: "Pangolin", sans-serif;
+    text-align: center;
+    color: #424242; /* Grey 800 */
+}
+
+input:focus {
+    border: 1px solid #FFD700; /* Golden */
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.-hidden {
+    visibility: hidden;
+}
+
+.-removed {
+    display: none;
+}

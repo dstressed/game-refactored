@@ -1,0 +1,14 @@
+@import url("../enemy/enemy.css");
+@import url("../you/you.css");
+
+.hit:after {
+    content: "";
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    background: url(images/hit.png) 0 5px / contain no-repeat;
+}

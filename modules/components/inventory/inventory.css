@@ -1,0 +1,66 @@
+.inventory {
+    grid-column: 1 / -1;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding: 30px 0 0 40px;
+    background: url(images/inventory_background.png) no-repeat;
+    color: #EEEEEE; /* Grey 200 */
+    -webkit-text-stroke: 1px #757575; /* Grey 600 */
+}
+
+.inventory-items {
+    display: flex;
+    margin: 5px 40px 0 0 ;
+}
+
+.inventory-items div {
+    width: 63px;
+    height: 63px;
+    margin-right: 10px;
+    background: url("images/gear_placeholder.svg") no-repeat;
+    cursor: pointer;
+}
+
+.items-button:first-child {
+    width: 29px;
+    background: url("images/gear_button_left.svg") no-repeat;
+}
+
+.items-button:last-child {
+    width: 29px;
+    margin-right: 0;
+    background: url("images/gear_button_right.svg") no-repeat;
+}
+
+.inventory-artifacts {
+    display: flex;
+    margin-top: 5px;
+}
+
+.inventory-artifacts div {
+    width: 63px;
+    height: 63px;
+    margin-right: 10px;
+    background: url("images/artifact_placeholder.svg") no-repeat;
+}
+
+.inventory-artifacts div:last-child {
+    margin-right: 0;
+}
+
+.inventory-menu {
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inventory-menu span {
+    display: block;
+    cursor: pointer;
+}
+
+.inventory-items div:hover, .inventory-menu span:hover {
+    position: relative;
+    transform: scale(1.1);
+}

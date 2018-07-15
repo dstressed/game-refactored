@@ -1,0 +1,195 @@
+.teacher, .enemy {
+    box-sizing: border-box;
+    align-self: end;
+    position: relative;
+    width: 185px;
+    height: 185px;
+    padding-top: 27.5px;
+    margin-bottom: 55px;
+}
+
+.teacher {
+    background: url("images/teacher.png") no-repeat;
+}
+
+.enemy div {
+    position: relative;
+    height: 45px;
+}
+
+.enemy div:nth-child(1):after, .enemy div:nth-child(2):after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 75px;
+    height: 25px;
+    opacity: 0.9;
+    background: url("images/duct_tape_00.svg") no-repeat;
+}
+
+.enemy div:nth-child(2):after {
+    width: 45px;
+    background: url("images/duct_tape_01.svg") no-repeat;
+}
+
+.enemy-square {
+    background: url("images/square_background.png") no-repeat;
+}
+
+.enemy-circle {
+    padding-left: 2.5px;
+    background: url("images/circle_background.png") no-repeat;
+}
+
+.enemy-triangle {
+    width: 215px;
+    padding-top: 22.5px;
+    background: url("images/triangle_background.png") no-repeat;
+}
+
+.square-top-00 {
+    background: url("images/square_top_00.svg") 50% 50% no-repeat;
+}
+
+.square-top-01 {
+    background: url("images/square_top_01.svg") 50% 50% no-repeat;
+}
+
+.square-top-02 {
+    background: url("images/square_top_02.svg") 50% 50% no-repeat;
+}
+
+.square-top-03 {
+    background: url("images/square_top_03.svg") 50% 50% no-repeat;
+}
+
+.circle-top-00 {
+    background: url("images/circle_top_00.svg") 50% 50% no-repeat;
+}
+
+.circle-top-01 {
+    background: url("images/circle_top_01.svg") 50% 50% no-repeat;
+}
+
+.circle-top-02 {
+    background: url("images/circle_top_02.svg") 50% 50% no-repeat;
+}
+
+.circle-top-03 {
+    background: url("images/circle_top_03.svg") 50% 50% no-repeat;
+}
+
+.triangle-top-00 {
+    background: url("images/triangle_top_00.svg") 50% 50% no-repeat;
+}
+
+.triangle-top-01 {
+    background: url("images/triangle_top_01.svg") 50% 50% no-repeat;
+}
+
+.triangle-top-02 {
+    background: url("images/triangle_top_02.svg") 50% 50% no-repeat;
+}
+
+.triangle-top-03 {
+    background: url("images/triangle_top_03.svg") 50% 50% no-repeat;
+}
+
+.square-middle-00 {
+    background: url("images/square_middle_00.svg") 50% 50% no-repeat;
+}
+
+.square-middle-01 {
+    background: url("images/square_middle_01.svg") 50% 50% no-repeat;
+}
+
+.square-middle-02 {
+    background: url("images/square_middle_02.svg") 50% 50% no-repeat;
+}
+
+.square-middle-03 {
+    background: url("images/square_middle_03.svg") 50% 50% no-repeat;
+}
+
+.circle-middle-00 {
+    background: url("images/circle_middle_00.svg") 50% 50% no-repeat;
+}
+
+.circle-middle-01 {
+    background: url("images/circle_middle_01.svg") 50% 50% no-repeat;
+}
+
+.circle-middle-02 {
+    background: url("images/circle_middle_02.svg") 50% 50% no-repeat;
+}
+
+.circle-middle-03 {
+    background: url("images/circle_middle_03.svg") 50% 50% no-repeat;
+}
+
+.triangle-middle-00 {
+    background: url("images/triangle_middle_00.svg") 50% 50% no-repeat;
+}
+
+.triangle-middle-01 {
+    background: url("images/triangle_middle_01.svg") 50% 50% no-repeat;
+}
+
+.triangle-middle-02 {
+    background: url("images/triangle_middle_02.svg") 50% 50% no-repeat;
+}
+
+.triangle-middle-03 {
+    background: url("images/triangle_middle_03.svg") 50% 50% no-repeat;
+}
+
+.square-bottom-00 {
+    background: url("images/square_bottom_00.svg") 50% 50% no-repeat;
+}
+
+.square-bottom-01 {
+    background: url("images/square_bottom_01.svg") 50% 50% no-repeat;
+}
+
+.square-bottom-02 {
+    background: url("images/square_bottom_02.svg") 50% 50% no-repeat;
+}
+
+.square-bottom-03 {
+    background: url("images/square_bottom_03.svg") 50% 50% no-repeat;
+}
+
+.circle-bottom-00 {
+    background: url("images/circle_bottom_00.svg") 50% 50% no-repeat;
+}
+
+.circle-bottom-01 {
+    background: url("images/circle_bottom_01.svg") 50% 50% no-repeat;
+}
+
+.circle-bottom-02 {
+    background: url("images/circle_bottom_02.svg") 50% 50% no-repeat;
+}
+
+.circle-bottom-03 {
+    background: url("images/circle_bottom_03.svg") 50% 50% no-repeat;
+}
+
+.triangle-bottom-00 {
+    background: url("images/triangle_bottom_00.svg") 50% 50% no-repeat;
+}
+
+.triangle-bottom-01 {
+    background: url("images/triangle_bottom_01.svg") 50% 50% no-repeat;
+}
+
+.triangle-bottom-02 {
+    background: url("images/triangle_bottom_02.svg") 50% 50% no-repeat;
+}
+
+.triangle-bottom-03 {
+    background: url("images/triangle_bottom_03.svg") 50% 50% no-repeat;
+}

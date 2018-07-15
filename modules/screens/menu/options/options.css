@@ -1,0 +1,60 @@
+/* Options */
+
+.options-background {
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.options-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    padding: 15px;
+    background: #FFF url("../../../../images/background.svg") 0 0 / 1024px auto no-repeat;
+    box-shadow: 0 0 20px rgba(33, 33, 33, 0.8); /* Grey 900 */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.options-window > * {
+    margin-bottom: 10px;
+}
+
+.options-window > *:last-child {
+    margin-bottom: 0;
+}
+
+.options-sound {
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    text-align: left;
+}
+
+.checkbox {
+    margin-left: auto;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    background: url("images/sound_off.svg") no-repeat;
+}
+
+.-checked {
+    background: url("images/sound_on.svg") no-repeat;
+}
+
+.button-back {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.checkbox:hover, .button-back:hover {
+    transform: scale(1.1);
+}

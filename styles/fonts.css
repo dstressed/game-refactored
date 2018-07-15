@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Permanent Marker";
+    font-weight: 400;
+    font-style: normal;
+    src: url("fonts/permanent_marker_regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Pangolin";
+    font-weight: 400;
+    font-style: normal;
+    src: url("fonts/pangolin_regular.ttf") format("ttf"); /* TTF format for bilingual support */
+}

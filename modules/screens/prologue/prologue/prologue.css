@@ -1,0 +1,26 @@
+@import url("../continue/continue.css");
+
+.prologue {
+    display: grid;
+    padding: 0 100px;
+}
+
+.prologue div {
+    height: 225px;
+}
+
+.prologue-image-00, .prologue-image-01, .prologue-image-02 {
+    margin: 150px 0 50px 0;
+}
+
+.prologue-image-00 {
+    background: url("images/prologue_image_00.gif") 50% 50% no-repeat;
+}
+
+.prologue-image-01 {
+    background: url("images/prologue_image_01.gif") 50% 50% no-repeat;
+}
+
+.prologue-image-02 {
+    background: url("images/prologue_image_02.gif") 50% 50% no-repeat;
+}

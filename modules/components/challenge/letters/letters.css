@@ -1,0 +1,20 @@
+.letters {
+    position: relative;
+    display: flex;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.letters span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    background: url("images/letter_background.png") 50% 50% / 60px auto no-repeat;
+    cursor: pointer;
+}
+
+.letters .placeholder {
+    background: url("images/placeholder.svg")50% 50% no-repeat;
+}

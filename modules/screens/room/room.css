@@ -1,0 +1,7 @@
+.room {
+    display: grid;
+    grid-template: repeat(2, 1fr) 150px / repeat(2, 1fr);
+    justify-items: center;
+    height: inherit;
+    background: url("images/room.svg") 50% 20% / 915px auto no-repeat;
+}

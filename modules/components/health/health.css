@@ -1,0 +1,28 @@
+.health {
+    margin-top: 60px;
+}
+
+.health p {
+    margin-bottom: 20px;
+}
+
+.health-bar-container {
+    position: relative;
+    width: 288px;
+    height: 18px;
+}
+
+.health-bar {
+    height: 100%;
+    background: #EF5350; /* Red 400 */
+}
+
+.health-bar-container:before {
+    content: "";
+    position: absolute;
+    top: -27px;
+    left: -27px;
+    width: 342px;
+    height: 72px;
+    background: url("images/health_foreground.png") 0 0 no-repeat;
+}

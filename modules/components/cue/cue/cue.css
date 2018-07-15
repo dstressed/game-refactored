@@ -1,0 +1,22 @@
+.cue-enemy, .cue-you {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    height: 175px;
+    padding: 60px 60px 35px 45px;
+    font-size: 18px;
+}
+
+.cue-enemy {
+    background: url("images/cue_enemy.png") no-repeat;
+}
+
+.cue-you {
+    background: url("images/cue_you.png") no-repeat;
+}
+
+.cue-continue {
+    font-size: 16px;
+    color: #757575; /* Grey 600 */
+}

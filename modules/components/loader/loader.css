@@ -1,0 +1,13 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0), rgba(224, 224, 224, 0.15), rgba(255, 255, 255, 0)), url("../../../images/background.svg") 0 0 / 1024px auto; /* Grey 300 */
+}
+
+.loader div {
+    width: 100px;
+    height: 100px;
+    background: url("images/logo.gif") 0 0 / contain no-repeat;
+}

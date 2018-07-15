@@ -1,0 +1,17 @@
+.challenge-listening > div {
+    display: flex;
+    align-items: center;
+}
+
+.listening-play {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    background: url("images/play.svg") 50% 50% no-repeat;
+    cursor: pointer;
+}
+
+.listening-play:hover {
+    position: relative;
+    transform: scale(1.1);
+}
